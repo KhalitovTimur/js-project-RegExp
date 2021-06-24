@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body onload="">
+    <h3>Create new color</h3>
+
+    <form
+        action=""
+        method="GET"
+        name="myForm"
+        >
+
+    <div class="label-container">
+        <label for="color">Color:</label>
+        <div class="message"></div>
+    </div>
+    <input 
+        type="text" 
+        name="color" 
+        id="color"
+        >
+
+    <label for="type">Type:</label>
+    <select name="select" id="type">
+        <option value="rgb">RGB</option>
+        <option value="rgba">RGBA</option>
+        <option value="hex">HEX</option>
+    </select>
+
+    <div class="label-container" >
+        <label for="code">Code:</label>
+        <div class="message" id="code"></div>
+    </div>
+    <input 
+        type="text" 
+        name="code" 
+        id="code"
+    >
+
+    <input
+        type="button"
+        name="button"
+        style="width: 100%; height: 30px;"
+        value="Save"
+    >
+    <div class="message"></div>
+
+</form>
+
+<div class="container">
+    <h3></h3>
+    <div class="container-body">
+
+    </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
